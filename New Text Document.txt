@@ -1,0 +1,21 @@
+using System;
+namespace ConsoleDevelop
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Welcome to Aptech");
+
+            string stdName = "Ali";
+            int stdAge = 20;
+            bool stdNic = true;
+            char stdGrade = 'A';
+
+            Console.WriteLine("Student Name is " + stdName + " " +stdGrade);
+            //Console.WriteLine("Student age is " + stdAge);
+
+        }
+    }
+}
