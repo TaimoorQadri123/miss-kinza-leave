@@ -18,11 +18,13 @@ namespace ConsoleApp2
             //obj.methode();
             //Console.ReadLine();
 
-            test obj = new test();
-            obj.method(25,"test");
+            //test obj = new test();
+            //obj.method(25,"test");
             //obj.method
-            Console.ReadLine();
+            //Console.ReadLine();
 
+            A obj = new A();
+            obj.methode("test",25,"gmail.com");
         }
     }
 }
@@ -50,21 +52,32 @@ namespace ConsoleApp2
 //        Console.WriteLine("don");
 //    }
 //}
-public class test
+//public class test
+//{
+//public void method(int age,string name)
+//{
+//    Console.WriteLine("First method");
+
+
+//}
+//public override void method() 
+//{
+//    Console.WriteLine("just");
+//}
+//public  void method(int id,string email,int number)
+//{
+//    Console.WriteLine("just");
+//}
+//}
+
+public class A
 {
-    public void method(int age,string name)
-    {
-        Console.WriteLine("First method");
 
-
-    }
-    //public override void method() 
-    //{
-    //    Console.WriteLine("just");
-    //}
-    public  void method(int id,string email,int number)
+    public void methode(string name,int age,string email)
     {
-        Console.WriteLine("just");
+        Console.WriteLine($"name is:{name} age is{age} email is{email}" );
     }
+    
+    
+
 }
-
