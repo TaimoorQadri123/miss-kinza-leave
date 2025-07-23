@@ -81,3 +81,124 @@ public class A
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Empolyee obje = new Empolyee();
+            //obje.method();
+            //Console.ReadLine();
+
+            //Staff obj = new Staff();
+            //obj.methode();
+            //Console.ReadLine();
+
+            //test obj = new test();
+            //obj.method(25,"test");
+            //obj.method
+            //Console.ReadLine();
+
+            //A obj = new A();
+            //obj.methode("test",25,"gmail.com");
+
+            one obje = new one();
+            obje.method();
+            //Console.ReadLine();
+        }
+    }
+}
+
+
+//class Empolyee
+//{
+//    public void method()
+//    {
+//        Console.WriteLine("hi");
+
+//    }
+//}
+//class Staff
+//{
+//    public void methode()
+//    {
+//        Console.WriteLine("done");
+//    }
+//}
+//class Admin:Empolyee
+//{
+//    public void methd(int age, string name )
+//    {
+//        Console.WriteLine("don");
+//    }
+//}
+//public class test
+//{
+//public void method(int age,string name)
+//{
+//    Console.WriteLine("First method");
+
+
+//}
+//public override void method() 
+//{
+//    Console.WriteLine("just");
+//}
+//public  void method(int id,string email,int number)
+//{
+//    Console.WriteLine("just");
+//}
+//}
+
+//public class A
+//{
+
+//    public void methode(string name,int age,string email)
+//    {
+//        Console.WriteLine($"name is:{name} age is{age} email is{email}" );
+//    }
+
+
+
+//}
+
+class one
+{
+    public void method()
+    {
+        Console.WriteLine("hi");
+
+    }
+}
