@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\std1\\source\\repos\\ConsoleAppdevelop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF43467-EED5-4003-AAAD-C739F8A26A60}|ConsoleAppdevelop\\ConsoleAppdevelop.csproj|c:\\users\\std1\\source\\repos\\consoleappdevelop\\consoleappdevelop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF43467-EED5-4003-AAAD-C739F8A26A60}|ConsoleAppdevelop\\ConsoleAppdevelop.csproj|solutionrelative:consoleappdevelop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\std1\\source\\repos\\ConsoleAppdevelop\\ConsoleAppdevelop\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppdevelop\\Program.cs",
+              "ToolTip": "C:\\Users\\std1\\source\\repos\\ConsoleAppdevelop\\ConsoleAppdevelop\\Program.cs",
+              "RelativeToolTip": "ConsoleAppdevelop\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvz8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:33:44.94Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
