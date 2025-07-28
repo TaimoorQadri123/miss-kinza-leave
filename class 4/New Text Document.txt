@@ -1,0 +1,132 @@
+  //if(!isRaning)
+  //{
+  //    Console.WriteLine("take an umbrella");
+  //}
+  //else 
+  //{
+  //    Console.WriteLine("Gofora walk");
+  //}
+  //double bankaccount = 2000;
+  //double deposit = 1000;
+  //bankaccount+= deposit;
+  //Console.WriteLine(bankaccount);
+
+
+  //double account = 2000;
+  //double credit = 1000;
+  //account -= credit;
+  //Console.WriteLine(account);
+
+  //double account = 2000;
+  //double credit = 1000;
+  //account *= credit;
+  //Console.WriteLine(account);
+
+  //double account = 2000;
+  //double credit = 1000;
+  //account /= credit;
+  //Console.WriteLine(account);
+
+
+
+  //Console.WriteLine("Enter your Number");
+  //int number =Convert.toint  Console.ReadLine() ;
+
+  //string res = (number % 2 == 0) ? "Even" : "Odd";
+
+  //Console.WriteLine(res);
+
+
+  //string day = "Monday";
+
+
+  //switch (day) {
+
+  //    case "Monday":
+  //        Console.WriteLine(1);
+  //    break;
+
+  //    case "Tuesday":
+  //        Console.WriteLine(2);
+  //    break;
+
+  //    case "wednesday":
+  //        Console.WriteLine(3);
+  //    break;
+
+  //    case "thursday":
+  //        Console.WriteLine(4);
+  //    break;
+
+  //    case "Friday":
+  //        Console.WriteLine(5);
+  //    break;
+
+  //    case "Saturday":
+  //        Console.WriteLine(6);
+  //    break;
+
+  //    case "Sunday":
+  //        Console.WriteLine(7);
+  //    break;
+
+  //    default:
+  //        Console.WriteLine("Invalid value");
+  //        break;
+
+
+
+
+  Console.WriteLine("Enter your First Number");
+  int num1 = Convert.ToInt32(Console.ReadLine());
+
+  Console.WriteLine("Enter your Operator");
+  string opreator = Console.ReadLine();
+
+  Console.WriteLine("Enter your second Number");
+  int num2 = Convert.ToInt32(Console.ReadLine());
+
+
+
+  switch (opreator) {
+
+      case "+" :
+      Console.WriteLine(num1 + num2);
+      break;
+
+      case "-" :
+      Console.WriteLine(num1 - num2);
+      break;
+
+      case "*" :
+      Console.WriteLine(num1 * num2);
+      break;
+
+      case "/":
+
+       if (num2 == 0)
+       {
+           Console.WriteLine("invalid value");
+       }
+       else
+       { 
+       Console.WriteLine(num1 / num2);
+       }
+
+
+       break;
+
+
+
+      case "%":
+      Console.WriteLine(num1 % num2);
+      break;
+
+     
+
+      default:
+          Console.WriteLine("invalid Operator");
+          break;
+  }
+
+

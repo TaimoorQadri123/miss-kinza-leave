@@ -1,0 +1,20 @@
+  //string username = "Ali@gmai.com".ToLower();
+  //int password = 1234;
+
+  //if ((username == "ali" || username == "ali@gmail.com") & password == 1234) ;
+  //{
+  //    Console.WriteLine("Login successful");
+
+  //}
+  //else {
+  //    Console.WriteLine("Invalid username or password ");
+
+  //}
+
+  //int a = 13;
+  //Console.WriteLine(a++);
+  //Console.WriteLine(a);
+
+  //int a = 13;
+  //Console.WriteLine(a--);
+  //Console.WriteLine(a);
