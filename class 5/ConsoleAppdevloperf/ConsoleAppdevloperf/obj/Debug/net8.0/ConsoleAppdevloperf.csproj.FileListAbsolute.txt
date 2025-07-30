@@ -1,0 +1,14 @@
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\bin\Debug\net8.0\ConsoleAppdevloperf.exe
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\bin\Debug\net8.0\ConsoleAppdevloperf.deps.json
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\bin\Debug\net8.0\ConsoleAppdevloperf.runtimeconfig.json
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\bin\Debug\net8.0\ConsoleAppdevloperf.dll
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\bin\Debug\net8.0\ConsoleAppdevloperf.pdb
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ConsoleAppdevloperf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ConsoleAppdevloperf.AssemblyInfoInputs.cache
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ConsoleAppdevloperf.AssemblyInfo.cs
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ConsoleAppdevloperf.csproj.CoreCompileInputs.cache
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ConsoleAppdevloperf.dll
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\refint\ConsoleAppdevloperf.dll
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ConsoleAppdevloperf.pdb
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ConsoleAppdevloperf.genruntimeconfig.cache
+C:\Users\std1\source\repos\ConsoleAppdevloperf\ConsoleAppdevloperf\obj\Debug\net8.0\ref\ConsoleAppdevloperf.dll

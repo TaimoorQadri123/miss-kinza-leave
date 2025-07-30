@@ -1,4 +1,4 @@
-namespace ConsoleAppdevloperf
+﻿namespace ConsoleAppdevloperf
 {
     internal class Program
     {
