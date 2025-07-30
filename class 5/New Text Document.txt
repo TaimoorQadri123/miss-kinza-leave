@@ -1,0 +1,65 @@
+namespace ConsoleAppdevloperf
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //for (int i = 0; i <=10; i++)
+            //{ 
+            //Console.WriteLine(i);
+            //}
+
+            //for (int i = 10; i >= 1; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i =0; i <= 20  ; i++)
+            //{
+            //    Console.WriteLine(i++ );
+            //}
+            //for (int i = 0; i <= 20; i+=2)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i = 1; i <= 20; i += 2)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //for (int i = 19; i >= 1; i -= 2)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //Console.WriteLine("Enter your table Number ");
+            //int num = Convert.ToInt32(Console.ReadLine());
+
+            //for (int i = 1; i <= 10; i ++)
+            //{
+
+
+            //    Console.WriteLine($"Table: {num} x {i} = {i * num}");
+
+            //}
+
+            //int i = 1;
+            //while (i<=10)
+            //{ 
+            //Console.WriteLine(i);
+            //    i++;
+            //}
+
+            int i = 10;
+            while (i >= 1)
+            {
+                Console.WriteLine(i);
+                i--;
+            }
+
+
+
+        }
+    }
+}
