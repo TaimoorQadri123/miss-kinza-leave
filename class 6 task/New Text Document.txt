@@ -1,0 +1,69 @@
+
+            //string[] names = { "a", "e", "i", "o", "u" }; 
+            //Console.WriteLine("Enter a Alphabet");
+            //string slice = Console.ReadLine().ToLower();
+
+
+            //foreach (char ch in slice)
+            //{
+            //    switch (ch)
+            //    {
+            //        case 'a':
+            //        case 'e':
+            //        case 'i':
+            //        case 'o':
+            //        case 'u':
+            //            Console.Write(ch + " ");
+            //            break;
+            //    }
+            //}
+
+
+            //Console.WriteLine("Enter a word:");
+            //string input = Console.ReadLine().ToLower();
+
+            //string printed = ""; // isme already printed vowels store karenge
+
+            //Console.WriteLine("Vowels in the word (unique):");
+
+            //foreach (char ch in input)
+            //{
+            //    switch (ch)
+            //    {
+            //        case 'a':
+            //        case 'e':
+            //        case 'i':
+            //        case 'o':
+            //        case 'u':
+            //            if (!printed.Contains(ch))
+            //            {
+            //                Console.Write(ch + " ");
+            //                printed += ch;
+            //            }
+            //            break;
+            //    }
+            //}
+
+            //Console.WriteLine(); // line break
+
+            const string vowels = "aeiou";
+            string printed = "";
+
+            Console.WriteLine("Enter a word:");
+            string input = Console.ReadLine().ToLower();
+
+            Console.WriteLine("Vowels in the word (unique):");
+
+            foreach (char ch in input)
+            {
+                if (vowels.Contains(ch.ToString()))
+                {
+                    if (!printed.Contains(ch.ToString()))
+                    {
+                        Console.Write(ch + " ");
+                        printed += ch;
+                    }
+                }
+            }
+
+            Console.WriteLine(); // new line

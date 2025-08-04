@@ -25,19 +25,28 @@
   ages[2] = 30;
   ages[3] = 40;
   ages[4] = 50;
+//Console.WriteLine(ages.Contains(20));
+//Console.WriteLine(ages.Max());
+//Console.WriteLine(ages.Min());
+//Console.WriteLine(ages.Sum());
+//Console.WriteLine(ages.First());
+//Console.WriteLine(ages.Last());
+//Console.WriteLine(ages.Length);
+//Console.WriteLine(ages[2]);
+//foreach (int age in ages)
 
-  foreach (int age in ages) 
-  
-  {
-  Console.WriteLine(age);
+//{
+//    Console.WriteLine(age);
 
-  }
+//}
+
+//string[] names = { "ali", "asgar", "fahad " };
+//Console.WriteLine(names.Contains("ali"));
+//Console.WriteLine(names.Contains("ali"));
+
+//foreach (string name in names)
+//{
+//Console.WriteLine(name);
+//}
 
 
-
-  string[] names = { "ali", "asgar", "fahad " };
-
-  foreach (string name in names) 
-  {
-  Console.WriteLine($"{name}.{name}");
-  }
