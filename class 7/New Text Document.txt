@@ -1,0 +1,59 @@
+            //Console.WriteLine("Enter you Alpahabet");
+            //string word =Console.ReadLine();
+
+            //foreach(char s in word)
+            //{
+
+            //    if("aeiou".Contains(s))
+            //    {
+            //        Console.WriteLine(s);
+            //    }
+            //}
+
+            //    int[,] ints =
+            //        {
+            //        {1,2,3,4,5},
+            //        {6,7,8,9,10},
+            //        {11,12,13,14,15}
+
+            //};
+            //    foreach (int i in ints) 
+            //    { 
+            //    Console.WriteLine(i);
+            //    }
+
+            //string[,] cities = new string[2,3];
+
+            //cities[0, 0] = "Karachi";
+            //cities[0, 1] = "Islamad";
+            //cities[0, 2] = "Lahore";
+            //cities[1, 0] = "Quetta";
+            //cities[1, 1] = "Multan";
+            //cities[1, 2] = "Sawat";
+
+
+            //foreach (string i in cities)
+            //{
+            //   Console.WriteLine(i);
+            //}
+
+
+            int[,,] ints1 =
+
+
+            {
+                {
+                    {1,2,3 },
+                    {4,5,6 }
+                },
+                {
+                    {8,9,10 },
+                    {11,12,13 }
+                }
+            };
+
+            Console.WriteLine(ints1[0,1,0]);
+            Console.WriteLine(ints1[1,1,0]);
+            Console.WriteLine(ints1[0,1,1]);
+            Console.WriteLine(ints1[1,0,2]);
+             

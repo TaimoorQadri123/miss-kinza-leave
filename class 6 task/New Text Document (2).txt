@@ -1,0 +1,13 @@
+            Console.WriteLine("Enter you Alpahabet");
+            string word =Console.ReadLine();
+
+            foreach(char s in word)
+            {
+
+                if("aeiou".Contains(s))
+                {
+                    Console.WriteLine(s);
+                }
+            }
+
+
