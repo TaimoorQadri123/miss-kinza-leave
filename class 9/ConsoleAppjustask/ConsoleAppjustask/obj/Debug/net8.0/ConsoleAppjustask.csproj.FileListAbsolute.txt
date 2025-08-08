@@ -1,0 +1,14 @@
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\bin\Debug\net8.0\ConsoleAppjustask.exe
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\bin\Debug\net8.0\ConsoleAppjustask.deps.json
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\bin\Debug\net8.0\ConsoleAppjustask.runtimeconfig.json
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\bin\Debug\net8.0\ConsoleAppjustask.dll
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\bin\Debug\net8.0\ConsoleAppjustask.pdb
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ConsoleAppjustask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ConsoleAppjustask.AssemblyInfoInputs.cache
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ConsoleAppjustask.AssemblyInfo.cs
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ConsoleAppjustask.csproj.CoreCompileInputs.cache
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ConsoleAppjustask.dll
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\refint\ConsoleAppjustask.dll
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ConsoleAppjustask.pdb
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ConsoleAppjustask.genruntimeconfig.cache
+C:\Users\std1\source\repos\ConsoleAppjustask\ConsoleAppjustask\obj\Debug\net8.0\ref\ConsoleAppjustask.dll
