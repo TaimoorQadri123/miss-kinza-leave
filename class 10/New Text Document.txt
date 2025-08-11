@@ -1,0 +1,41 @@
+ class Shape
+ {
+     private double _lenght;
+     private double _width;
+
+     //public Shape()
+     //{
+     //    Console.WriteLine("HEllo ");
+     //}
+
+
+     //public Shape(string name )
+     //{
+     //    Console.WriteLine($"HEllO {name}");
+     //}
+
+
+
+
+     public Shape(double lenght, double width)
+     {
+         _lenght = lenght;
+         _width = width;
+     }
+     public void AreaofRectangle()
+     {
+         Console.WriteLine(_lenght * _width);
+     }
+ }
+ internal class Program
+ {
+     static void Main(string[] args)
+     {
+
+         Shape shape = new Shape(23, 45);
+         shape.AreaofRectangle();
+
+
+}
+}
+}

@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Metadata;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace ConsoleAppObjectOrientedPrograming
+{
+
+    static class A
+    {
+        public static string ContactNumber = "0312312312";
+        public static void Add(int a, int b)
+        {
+            Console.WriteLine(a + b);
+        }
+
+    }
+    class Person
+    {
+        private string name = "Ali";
+
+        public String Abc(string msg)
+        {
+            Console.WriteLine(name);
+            Console.WriteLine(320002);
+            return msg;
+        }
+        //public void ABC()
+        //{
+        //    Console.WriteLine("Hi");
+        //}
+        public void UserDetails(string name , int age )
+        {
+            Console.WriteLine($"Name: {name}\nAge: {age}"); 
+        }
+
+        public int Sub(int a, int b)
+        {
+            Console.WriteLine("Hi");
+            return a + b;
+        }
+
+
+        
+    }
+
+    class Shape
+    {
+        private double _lenght;
+        private double _width;
+
+        //public Shape()
+        //{
+        //    Console.WriteLine("HEllo ");
+        //}
+
+
+        //public Shape(string name )
+        //{
+        //    Console.WriteLine($"HEllO {name}");
+        //}
+
+
+
+
+        public Shape(double lenght, double width)
+        {
+            _lenght = lenght;
+            _width = width;
+        }
+        public void AreaofRectangle()
+        {
+            Console.WriteLine(_lenght * _width);
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Shape shape = new Shape(23, 45);
+            shape.AreaofRectangle();
+
+            //A.Add(1,2);
+            //Console.WriteLine(A.ContactNumber);
+
+
+
+
+            //Console.WriteLine("Hello, World!");
+            //Person person = new Person();
+
+            //Console.WriteLine(person.Abc("Hi Ali"));
+            //Console.WriteLine(person.Sub(1,3));
+
+            //Console.WriteLine("Enter your Name");
+            //string username = Console.ReadLine();
+            //Console.WriteLine("Enter your Age");
+            //string userage = Convert.ToInt32(Console.ReadLine());
+
+
+            //person.UserDetails(username, userage);
+            //person.UserDetails(username, 12);
+            //person.UserDetails("Ali", 15);
+            //person.ABC();
+            //Console.WriteLine(person.name);
+        }
+    }
+}
