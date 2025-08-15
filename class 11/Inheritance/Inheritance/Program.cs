@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Inheritance
+{
+
+    class GrandParent
+    {
+        protected void GPAbc()
+        {
+            Console.WriteLine("methode from grands parent");
+        }
+    }
+
+    class Parent1:GrandParent
+    {
+        protected void P1ABC()
+        {
+            Console.WriteLine("methode from parent1");
+        }
+    }
+    class Parent2 : GrandParent
+    {
+        public void P2ABC()
+        {
+            Console.WriteLine("methode from parent2");
+        }
+    }
+    class Child1:Parent1
+    {
+        public void C1Add()
+        {
+            GPAbc();
+            P1ABC();
+        }
+    }
+    class Child2 : Parent1
+    {
+        public void C2Add()
+        {
+            GPAbc();
+            P1ABC();
+        }
+    }
+
+    class Child3 : Parent2
+    {
+        public void C3Add()
+        {
+            GPAbc();
+            P2ABC();
+        }
+    }
+
+    class Child4 : Parent2
+    {
+        public void C4Add()
+        {
+            GPAbc();
+            P2ABC();
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Child1 child = new Child1();
+            child.C1Add();
+
+            Child3 child3 = new Child3();
+            child3.P2ABC();
+        }
+    }
+}
