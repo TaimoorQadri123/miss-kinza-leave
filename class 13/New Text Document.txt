@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Abstraction
+{
+
+    abstract class Person
+    {
+
+        public string Name = "Ali";
+        public abstract void UserDetail();
+
+        public void Abc()
+        {
+            Console.WriteLine("NORMAL METHODE");
+        }
+    }
+    class User : Person
+    {
+        public override void UserDetail() {
+            Console.WriteLine("Hey, User");
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            User user = new User(); 
+            user.UserDetail();
+            Console.WriteLine(user.Name);
+        }
+    }
+}

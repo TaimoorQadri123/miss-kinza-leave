@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace polimorphism
+{
+    class Calculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+        public double Add(double a, double b)
+        {
+            return a + b;
+        } 
+        public int Add(int a, int b, int c)
+        {
+            return a + b+c;
+        }
+
+    }
+
+    class Shapes
+    {
+        public virtual void Area()
+        {
+            Console.WriteLine("Method for finding area of different Shapes");
+                
+        }
+    }
+
+    class Rectangle : Shapes
+    {
+        double _length = 20;
+        double _width = 10.5;
+
+        public override void Area()
+        {
+            Console.WriteLine($"Area of Rectangle: {_length* _width}");
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+         {
+            Rectangle rectangle = new Rectangle();
+            rectangle.Area();
+            //Calculator calculator = new Calculator();
+            //Console.WriteLine(calculator.Add(23.8, 45.7));
+
+        }
+    }
+}
