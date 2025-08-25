@@ -20,17 +20,99 @@ namespace Abstraction
     }
     class User : Person
     {
-        public override void UserDetail() {
+        public override void UserDetail()
+        {
             Console.WriteLine("Hey, User");
+        }
+    }
+
+    interface IVehicles
+    {
+        void Drive();
+      
+    }
+    class Car : IVehicles {
+
+        public void Drive()
+        {
+            Console.WriteLine("I am Driving a car ");
+        }
+    }
+
+    class Bike : IVehicles
+    {
+
+        public void Drive()
+        {
+            Console.WriteLine("I am Driving a Bike ");
+        }
+    }
+
+    interface IFly
+    {
+        void Fly();
+    }
+    interface IRun
+    {
+        void Run();
+    }
+
+    abstract class Food
+    {
+
+        public abstract void Eat();
+    }
+    class Bird : Food, IFly, IRun
+    {
+        public override void Eat()
+        {
+            Console.WriteLine("birds eat grains ");
+        }
+        public void Fly()
+        {
+            Console.WriteLine("birds are flyig ");
+        }
+        public void Run()
+        {
+            Console.WriteLine("bird is runing");
+        }
+    }
+
+
+
+    interface IPayment
+    {
+        void Deposit();
+
+    }
+    class Bank : IPayment
+    {
+
+        public void Deposit()
+        {
+            Console.WriteLine("I am Depositing ");
+        }
+    }
+
+    class Loan : IPayment
+    {
+
+        public void Deposit()
+        {
+            Console.WriteLine("I recive a Loan ");
         }
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            User user = new User(); 
-            user.UserDetail();
-            Console.WriteLine(user.Name);
+            //User user = new User();
+            //user.UserDetail();
+            //Console.WriteLine(user.Name);
+            IVehicles vehicles = new Car();
+
+
+            vehicles.Drive();
         }
     }
 }

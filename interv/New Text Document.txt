@@ -1,0 +1,67 @@
+Basic Level Questions:
+
+PHP kya hai? Iske features kya hain?
+
+PHP kaise kaam karta hai?
+
+PHP variables ko kaise declare karte hain?
+
+Data types in PHP?
+
+Difference between echo and print in PHP?
+
+PHP constants kya hote hain, aur unhe kaise define karte hain?
+
+Arrays in PHP, aur unke types (indexed, associative, multidimensional).
+
+Functions kya hain? Function kaise banate hain?
+
+Intermediate Level Questions:
+
+Difference between include, require, include_once, require_once.
+
+What are sessions and cookies? Unka use kya hai?
+
+How to connect PHP with a MySQL database?
+
+What is PDO? How is it better than mysqli?
+
+Explain the concept of GET and POST methods.
+
+What are PHP superglobals? (e.g., $_POST, $_GET, $_SESSION)
+
+How to handle errors in PHP?
+
+What are traits in PHP?
+
+Explain OOP concepts in PHP (class, object, inheritance, polymorphism).
+
+Advanced Level Questions:
+
+Explain namespaces in PHP.
+
+What are closures and anonymous functions?
+
+What is Composer? How does it work?
+
+What are design patterns in PHP? (Singleton, Factory, etc.)
+
+Explain MVC architecture and how PHP frameworks implement it.
+
+How do you optimize PHP code for better performance?
+
+Explain how to secure PHP applications from common vulnerabilities (SQL injection, XSS, CSRF).
+
+Difference between abstract classes and interfaces.
+
+Practical/Scenario-Based Questions:
+
+How would you upload a file using PHP?
+
+Write a function to reverse a string.
+
+How would you validate user input in PHP?
+
+How to send an email using PHP?
+
+How to create a REST API in PHP?

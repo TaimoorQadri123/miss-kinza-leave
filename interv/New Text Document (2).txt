@@ -1,0 +1,206 @@
+Basic Level Questions:
+
+1. PHP kya hai? Iske features kya hain?
+PHP (Hypertext Preprocessor) ek server-side scripting language hai jo web development ke liye use hoti hai.
+Features:
+
+Open-source
+
+Server-side scripting
+
+Easy to learn
+
+Cross-platform
+
+Supports databases (MySQL, PostgreSQL, etc.)
+
+Embedded into HTML
+
+2. PHP kaise kaam karta hai?
+PHP code server par run hota hai. Jab user koi request bhejta hai, toh server PHP script ko process karta hai aur HTML output browser ko bhejta hai.
+
+3. PHP variables ko kaise declare karte hain?
+Variables $ sign se declare karte hain, jaise:
+
+$name = "Ali";
+$age = 25;
+
+
+4. Data types in PHP?
+
+String
+
+Integer
+
+Float (Double)
+
+Boolean
+
+Array
+
+Object
+
+NULL
+
+Resource
+
+5. Difference between echo and print?
+
+echo faster hai aur multiple arguments le sakta hai.
+
+print ek function hai, return value deta hai (always 1), aur ek hi argument le sakta hai.
+
+6. PHP constants kya hote hain?
+Constants wo values hoti hain jo change nahi hoti. Define karne ke liye:
+
+define("PI", 3.14);
+
+
+7. Arrays ke types?
+
+Indexed array: numerically indexed.
+
+Associative array: keys string hote hain.
+
+Multidimensional array: arrays ke andar arrays.
+
+8. Functions kya hain?
+Code ka reusable block. Banane ka syntax:
+
+function greet() {
+  echo "Hello!";
+}
+greet();
+
+Intermediate Level Questions:
+
+1. Difference between include, require, include_once, require_once?
+
+include: File include karta hai, agar file missing ho toh warning deta hai, script run hota rahta hai.
+
+require: Agar file missing ho toh fatal error deta hai, script stop ho jata hai.
+
+_once variants ensure karte hain file sirf ek baar include ho.
+
+2. Sessions and cookies?
+
+Cookies client browser me store hoti hain.
+
+Sessions server par store hoti hain, user-specific data ke liye.
+
+3. PHP se MySQL connection kaise banate hain?
+
+$conn = new mysqli("localhost", "username", "password", "database");
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+
+4. PDO kya hai?
+PHP Data Objects, ek database access layer hai jo multiple databases support karta hai aur prepared statements provide karta hai jo security improve karta hai.
+
+5. GET aur POST methods?
+
+GET URL ke through data bhejta hai (visible, size limited).
+
+POST data HTTP body me bhejta hai (hidden, size limit zyada).
+
+6. PHP superglobals?
+$_GET, $_POST, $_SESSION, $_COOKIE, $_SERVER, etc. Inbuilt variables jo globally accessible hote hain.
+
+7. Error handling?
+try-catch blocks, error_reporting(), set_error_handler(), ya die() use karte hain.
+
+8. Traits kya hain?
+Traits ek reusability mechanism hai jisme multiple classes common code share kar sakti hain without inheritance.
+
+9. OOP concepts?
+
+Class: blueprint
+
+Object: class ka instance
+
+Inheritance: class properties/methods inherit karna
+
+Polymorphism: same function multiple forms
+
+Encapsulation: data hiding
+
+Advanced Level Questions:
+
+1. Namespaces?
+Code ko organize karne ke liye namespaces use hote hain, taake same naam ke classes/functions clash na karen.
+
+2. Closures and anonymous functions?
+Functions bina naam ke jo variable me assign ho sakein:
+
+$func = function($name) {
+  echo "Hello $name";
+};
+$func("Ali");
+
+
+3. Composer?
+PHP dependency manager hai jo libraries install/manage karta hai.
+
+4. Design patterns?
+Common solutions to recurring problems, jaise Singleton (ek hi instance), Factory (object creation).
+
+5. MVC architecture?
+
+Model: data handling
+
+View: UI
+
+Controller: user input aur business logic
+
+6. PHP optimization?
+
+Opcode caching (e.g. OPCache)
+
+Query optimization
+
+Avoid unnecessary computations
+
+Use efficient algorithms
+
+7. Security?
+
+SQL Injection: Use prepared statements
+
+XSS: Escape output
+
+CSRF: Use tokens in forms
+
+8. Abstract class vs Interface?
+
+Abstract class me implemented aur unimplemented methods ho sakte hain.
+
+Interface sirf method signatures define karta hai, koi implementation nahi.
+
+Practical Questions:
+
+1. File upload?
+
+if (isset($_FILES['file'])) {
+  move_uploaded_file($_FILES['file']['tmp_name'], "uploads/" . $_FILES['file']['name']);
+}
+
+
+2. Reverse string function?
+
+function reverseString($str) {
+  return strrev($str);
+}
+
+
+3. Input validation?
+Use filter_var(), regex, or manual checks.
+
+4. Send email?
+
+mail("email@example.com", "Subject", "Message");
+
+
+5. REST API?
+Use PHP to receive HTTP requests, process JSON, and respond with JSON.
