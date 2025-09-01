@@ -1,0 +1,167 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Encapsulation
+{
+    class A
+    {
+        private string _name = "shayan";
+        private int _age;
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+
+        public int Age
+        {
+            get
+            {
+                return _age;
+            }
+            set
+            {
+                if (value >= 18)
+                {
+                    _age = value;
+
+                }
+                else
+                {
+                    Console.WriteLine("Age must be 18 or above 18");
+                }
+
+            }
+
+        }
+    }
+
+    static class B
+    {
+        private static string _address = "karachi";
+
+        public static string Address
+        {
+            get
+            {
+                return _address;
+            }
+        }
+    }
+
+    abstract class C
+    {
+        string _city = "lahore";
+
+        public abstract string City
+        {
+            set;
+
+
+        }
+    }
+
+    class Employee
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+    }
+    //class Students
+    //{
+    //    string _stdname = "Ali";
+    //    public string StdName
+    //    {
+    //        get
+    //        {
+    //            return _stdname;
+    //        }
+    //        //set
+    //        //{
+    //        //    _stdname = value;
+    //        //}
+
+    //    }
+    class Account
+    {
+        string[,] accountDetails = new string[4, 2];
+        public string this[int pos ,int column]
+        {
+            get
+            {
+                return (accountDetails[pos, column]);
+            }
+            set
+            {
+                accountDetails[pos, column] = value;
+            }
+        }
+    }
+
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Account objAccount = new Account();
+
+
+
+            string[] id = new string[3]{"1001", "1002", "1003"};
+            string[] name = new string[3] { "faiz", "saad", "hasher" };
+
+
+            //string[] id = { "1001", "1002", "1003" };
+            //string[] name = { "faiz", "saad", "hasher" };
+
+            for (int i = 0; i < 3; i++)
+            {
+                objAccount[i, 0] = id[i];
+                objAccount[i, 1] = name[i];
+            }
+
+            Console.WriteLine("ID  Name");
+            Console.WriteLine();
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.Write(objAccount[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+
+
+
+
+            Employee emp = new Employee
+            {
+                Name = "Aina",
+                Email = "Aina@gmail.com",
+                Address = "karachi"
+            };
+            Console.WriteLine(emp.Name);
+            //Console.WriteLine(emp.Email);
+            //Console.WriteLine(emp.Address);
+
+
+            A a = new A();
+            //a.Name = "Ali";
+            //Console.WriteLine(a.Name);
+            //a.Age = 10;
+            //Console.WriteLine(a.Age);
+            //Console.WriteLine(B.Address);
+        }
+    }
+}

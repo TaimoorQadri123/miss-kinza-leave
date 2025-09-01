@@ -1,0 +1,124 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Encapsulation
+{
+    class A
+    {
+        private string _name = "shayan";
+        private int _age;
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+
+        public int Age
+        {
+            get
+            {
+                return _age;
+            }
+            set
+            {
+                if (value >= 18)
+                {
+                    _age = value;
+
+                }
+                else
+                {
+                    Console.WriteLine("Age must be 18 or above 18");
+                }
+
+            }
+
+        }
+    }
+
+    static class B
+    {
+        private static string _address = "karachi";
+
+        public static string Address
+        {
+            get
+            {
+                return _address;
+            }
+        }
+    }
+
+    abstract class C
+    {
+        string _city = "lahore";
+
+        public abstract string City
+        {
+            set;
+
+
+        }
+    }
+
+    class Employee
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+    }
+    //class Students
+    //{
+    //    string _stdname = "Ali";
+    //    public string StdName
+    //    {
+    //        get
+    //        {
+    //            return _stdname;
+    //        }
+    //        //set
+    //        //{
+    //        //    _stdname = value;
+    //        //}
+
+    //    }
+
+
+
+
+
+
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee emp = new Employee
+            {
+                Name = "Aina",
+                Email = "Aina@gmail.com",
+                Address = "karachi"
+            };
+            Console.WriteLine(emp.Name);
+            //Console.WriteLine(emp.Email);
+            //Console.WriteLine(emp.Address);
+
+
+            A a = new A();
+            //a.Name = "Ali";
+            //Console.WriteLine(a.Name);
+            //a.Age = 10;
+            //Console.WriteLine(a.Age);
+            //Console.WriteLine(B.Address);
+        }
+    }
+}
